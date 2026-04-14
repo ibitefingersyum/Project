@@ -26,4 +26,4 @@ Everything cause buns at coding
 
 ## Class Diagram
 
-![Diagram](images/dreadnought.png)
+![Diagram](images/thethingy.png)
