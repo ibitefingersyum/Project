@@ -2,7 +2,7 @@
 The Dreadnought
 
 ## Description
-This is a short, <10 minute game. I can't talk much about the exact details of this, but you may find more details here: [Grave/Digger The Dreadnought Trello](https://trello.com/c/Ho3QNQUG/234-the-dreadnought)
+This is a short, <10 minute game. I can't talk much about the exact details of this since it is for school and the description is dark, but you may find more details here: [Grave/Digger The Dreadnought Trello](https://trello.com/c/Ho3QNQUG/234-the-dreadnought)
 
 ## Purpose
 I'm making this project since the game of which it's inspired by, is what I consider a rare gem in today's world. I'm soley making this since I thought it would be enjoyable.
