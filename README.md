@@ -22,7 +22,7 @@ List the main classes or components you expect to create.
 Everything cause buns at coding
 
 ## Mockup
-(Add image here)
+![Mockup](images/DiagramColor.png)
 
 ## Class Diagram
 
