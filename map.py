@@ -1,0 +1,4 @@
+# Map
+
+display_width = 800
+display_height = 600
