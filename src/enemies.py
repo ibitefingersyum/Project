@@ -1,10 +1,29 @@
 #enemies
 
 import pygame
-import random
-import map
-import health
 
+class Enemy:
+    def __init__(self, x, y):
+        self.pos = pygame.Vector2(x, y)
+
+    def update(self, dt, player):
+        pass  # add AI later
+
+    def draw(self, screen):
+        pygame.draw.circle(screen, (200, 50, 50), self.pos, 15)
+
+
+class EnemyManager:
+    def __init__(self):
+        self.enemies = [Enemy(200, 200), Enemy(600, 200)]
+
+    def update(self, dt, player):
+        for e in self.enemies:
+            e.update(dt, player)
+
+    def draw(self, screen):
+        for e in self.enemies:
+            e.draw(screen)
 # hitbox
 
 # sprite
@@ -51,3 +70,4 @@ import health
 #interaction with map class
 
 #interaction with health class
+

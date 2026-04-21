@@ -1,12 +1,6 @@
-#hud
 import pygame
-import map
-import health
 
-class HUD:
-    def __init__(self, player):
-        self.player = player
-
-    def draw(self, surface):
-        # Draw health bar
-        health.draw_health_bar(surface, self.player.health)
+def draw_hud(screen, player):
+    font = pygame.font.SysFont(None, 30)
+    text = font.render(f"Health: {int(player.health.current)}", True, (255,255,255))
+    screen.blit(text, (10, 10))

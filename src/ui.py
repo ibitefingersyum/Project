@@ -1,4 +1,2 @@
-#ui
-
-import pygame
-import map
+def draw_menu(screen):
+    pass
