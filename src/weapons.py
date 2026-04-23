@@ -12,7 +12,7 @@ def pick_enemy_type():
 
 
 WEAPONS = {
-    
+    #enemy weapons, add elites later
     "judgement": {
         "type": "rifle",
         "damage": 200,
@@ -68,3 +68,5 @@ WEAPONS = {
         "accuracy": 0.65
     }
 }
+
+#players weapon
