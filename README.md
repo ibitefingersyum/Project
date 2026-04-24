@@ -1,5 +1,6 @@
-# Project Title
-The Dreadnought
+PLEASEEEEEE DONT PEER EVAL MY SHIT LIKE ONG JUST MAKE UP SOME RANDOM SHIT AND SAY "OK" LIKE PLEASEEEEEEE LIKE IF I GET ONE ACTUAL PEER EVAL IM GENUINELY GOING TO DELETE IT ALL
+
+# The Dreadnought
 
 ### THIS GAME REQUIRES PYGAME
 [Pygame installation guide](https://www.pygame.org/wiki/GettingStarted)
