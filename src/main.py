@@ -4,11 +4,11 @@ from enemies import EnemyManager
 from projectiles import ProjectileManager
 from vision import draw_vision_cone
 from map import draw_map
-from hud import draw_hud
-pygame.display.set_caption("The Dreadnought")
+from hud import draw_hud #add stuff from other files
+pygame.display.set_caption("The Dreadnought") #cool launch name thing
 
 pygame.init()
-WIDTH, HEIGHT = 600, 800
+WIDTH, HEIGHT = 600, 800  #map size adjust later
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 
@@ -18,18 +18,18 @@ projectiles = ProjectileManager()
 
 running = True
 while running:
-    dt = clock.tick(60) / 1000
+    dt = clock.tick(60) / 1000 #frame rate time
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
 
-    # update
+    # updates
     player.update(dt)
     enemies.update(dt, player)
     projectiles.update(dt)
 
-    # draw
+    # everything draw related
     screen.fill((10, 10, 30))
     draw_map(screen)
 
